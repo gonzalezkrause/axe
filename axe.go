@@ -16,7 +16,7 @@ var (
 )
 
 func main() {
-	log.SetLevel(log.DebugLevel)
+	log.SetLevel(log.InfoLevel)
 
 	splitFlag := flag.Bool("split", false, "Split a file")
 	joinFlag := flag.Bool("join", false, "Join a file")
